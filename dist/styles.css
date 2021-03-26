@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster:400,,800,900);
+
+html {
+    scroll-behavior: smooth;
+}
+#home {
+    height: 100vh;
+}
+#about {
+    height: 100vh;
+}
+.blue-background {
+    background-color: #C4EEE2;
+}
+
+.nice-font {
+    font-family: 'Lobster', sans-serif;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
