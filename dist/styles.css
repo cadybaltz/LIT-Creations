@@ -1,23 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster:400,,800,900);
-
-html {
-    scroll-behavior: smooth;
-}
-#home {
-    height: 100vh;
-}
-#about {
-    height: 100vh;
-}
 .blue-background {
-    background-color: #C4EEE2;
+    background-color: #CAEEE2;
 }
 
-.nice-font {
-    font-family: 'Lobster', sans-serif;
+.purple-background {
+    background-color: #c1a1c9;
 }
 
-.table-borderless td,
-.table-borderless th {
-    border: 0;
+.purple-text {
+    color: #a951be;
+}
+
+.font-size {
+    font-size: 1.25rem;
+}
+
+.background-img {
+    background-image: url("https://files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg");
 }
