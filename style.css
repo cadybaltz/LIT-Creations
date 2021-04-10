@@ -53,7 +53,7 @@ html {
     position: absolute;
     right: 528px;
     top: 75px;
-    border: 7px double #D7B4AE;
+    border: 8px double #D7B4AE;
   }
   .jumbotron {
     background-color: rosybrown !important;
@@ -76,7 +76,7 @@ html {
     color: seashell !important;
   }
   .home-name {
-      padding-top: 300px;
+      padding-top: 350px;
       font-weight: lighter;
       font-family: 'Courgette', cursive;
       color: seashell;
@@ -114,11 +114,11 @@ html {
  
   .card{
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */
     padding: 16px;
     margin-top: 20px;
-    background-color: #673147 !important;
-    color:rosybrown !important;
+    background-color: #8b4460 !important;
+    color:rgb(230, 177, 177) !important;
     background: 0% 0% no-repeat padding-box;
     border-radius: 20px;
     opacity: 1;
@@ -126,8 +126,6 @@ html {
 }
   .col-sm-6 {
       float: left !important;
-      /*width: 25%;
-      padding: 0 10px; */
       width: calc(33% - 30px);
       padding: 0 15px;
   }
@@ -196,12 +194,13 @@ html {
     font-weight : bold;
   }
   .org-text {
-    /*color: rgb(255, 127, 15);*/
-    color: rgb(255, 251, 0);
+    color: rgb(255, 123, 0);
     font-weight: bold;
   }
   .org-subtext {
-    color:rgb(255, 251, 0);
+    /*color: rgb(134, 165, 255); */
+    color:rgb(159, 148, 233);
+    font-weight: bolder;
   }
   .contact-font {
     font-size: large;
