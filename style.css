@@ -46,6 +46,15 @@ html {
     top: 0px;
     width: 15%;
   }
+  .rounded-circle {
+    border-radius: 50% !important;
+    margin-right: auto;
+    size: 50px;
+    position: absolute;
+    right: 528px;
+    top: 75px;
+    border: 7px double #D7B4AE;
+  }
   .jumbotron {
     background-color: rosybrown !important;
     margin-top: 0px;
@@ -67,7 +76,7 @@ html {
     color: seashell !important;
   }
   .home-name {
-      padding-top: 250px;
+      padding-top: 300px;
       font-weight: lighter;
       font-family: 'Courgette', cursive;
       color: seashell;
@@ -86,17 +95,17 @@ html {
   }
   .email {
     position: relative;
-    left: 490px;
+    left: 495px;
     padding-top: 10px;
   }
   .resume {
     position: relative;
-    left: 540px;
+    left: 550px;
     padding-top: 10px;
   }
   .github {
     position: relative;
-    left: 590px;
+    left: 595px;
     padding-top: 10px;
   }
   div a:hover {
@@ -122,11 +131,6 @@ html {
       width: calc(33% - 30px);
       padding: 0 15px;
   }
-  /*.card-involvement {
-    position: absolute;
-    left: 0px;
-    margin-right: 300px;
-  } */
   .row {
     margin: 0 -5px;
     display: flex;
@@ -154,7 +158,26 @@ html {
       margin-bottom: 20px !important;
     }
   }
- 
+ .see-more {
+  position: absolute;
+  text-align: center;
+  top: 1360px;
+  left: 400px;
+ }
+ .card-education {
+   position: absolute;
+   left: 50px;
+ }
+ .card-involvement {
+   position: absolute;
+   right: 180px;
+ }
+ .card-skills {
+   position: absolute;
+   bottom: 244px;
+   left: 540px;
+   right: 20px !important;
+ }
   .carousel {
     margin-left: 21%;
     margin-top: 1%;
