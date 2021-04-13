@@ -46,6 +46,15 @@ html {
     top: 0px;
     width: 15%;
   }
+  .rounded-circle {
+    border-radius: 50% !important;
+    margin-right: auto;
+    size: 50px;
+    position: absolute;
+    right: 528px;
+    top: 75px;
+    border: 8px double #D7B4AE;
+  }
   .jumbotron {
     background-color: rosybrown !important;
     margin-top: 0px;
@@ -67,7 +76,7 @@ html {
     color: seashell !important;
   }
   .home-name {
-      padding-top: 250px;
+      padding-top: 350px;
       font-weight: lighter;
       font-family: 'Courgette', cursive;
       color: seashell;
@@ -86,17 +95,17 @@ html {
   }
   .email {
     position: relative;
-    left: 490px;
+    left: 495px;
     padding-top: 10px;
   }
   .resume {
     position: relative;
-    left: 540px;
+    left: 550px;
     padding-top: 10px;
   }
   .github {
     position: relative;
-    left: 590px;
+    left: 595px;
     padding-top: 10px;
   }
   div a:hover {
@@ -105,11 +114,11 @@ html {
  
   .card{
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4); /* this adds the "card" effect */
     padding: 16px;
     margin-top: 20px;
-    background-color: #673147 !important;
-    color:rosybrown !important;
+    background-color: #8b4460 !important;
+    color:rgb(230, 177, 177) !important;
     background: 0% 0% no-repeat padding-box;
     border-radius: 20px;
     opacity: 1;
@@ -117,16 +126,9 @@ html {
 }
   .col-sm-6 {
       float: left !important;
-      /*width: 25%;
-      padding: 0 10px; */
       width: calc(33% - 30px);
       padding: 0 15px;
   }
-  /*.card-involvement {
-    position: absolute;
-    left: 0px;
-    margin-right: 300px;
-  } */
   .row {
     margin: 0 -5px;
     display: flex;
@@ -154,7 +156,26 @@ html {
       margin-bottom: 20px !important;
     }
   }
- 
+ .see-more {
+  position: absolute;
+  text-align: center;
+  top: 1360px;
+  left: 400px;
+ }
+ .card-education {
+   position: absolute;
+   left: 50px;
+ }
+ .card-involvement {
+   position: absolute;
+   right: 180px;
+ }
+ .card-skills {
+   position: absolute;
+   bottom: 244px;
+   left: 540px;
+   right: 20px !important;
+ }
   .carousel {
     margin-left: 21%;
     margin-top: 1%;
@@ -173,12 +194,13 @@ html {
     font-weight : bold;
   }
   .org-text {
-    /*color: rgb(255, 127, 15);*/
-    color: rgb(255, 251, 0);
+    color: rgb(255, 123, 0);
     font-weight: bold;
   }
   .org-subtext {
-    color:rgb(255, 251, 0);
+    /*color: rgb(134, 165, 255); */
+    color:rgb(159, 148, 233);
+    font-weight: bolder;
   }
   .contact-font {
     font-size: large;
